@@ -1,0 +1,78 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #363636;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+table{
+    padding: 15px;
+    border-spacing: 3px;
+    margin-top: 15px;
+}
+td{
+    width: 45px;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all .5s;
+    cursor: pointer;
+}
+td:hover{
+    filter: brightness(1.6);
+    color: black;
+}
+p, h1{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 25px;
+}
+p{
+    font-size: 12px;
+}
+caption{
+    font-size: 35px;
+}
+#spacing{
+    height: 10px;
+}
+.espaçoTransicaoE{
+    height: 25px;
+}
+.vazio{
+    background-color: #363636;
+    color: white;
+    font-size: 25px;
+    border: none;
+    filter: none;
+    transition: none;
+    cursor: auto;
+}
+.vazio:hover{
+    filter: none;
+    color: white;
+}
+.AoCentro{
+    text-align: center;
+}
+.nobres{
+    background-color: seagreen;
+}
+.metais{
+    background-color: blueviolet;
+}
+.metaisE{
+    background-color: #8B008B;
+}
+.ametais{
+    background-color: orangered;
+}
