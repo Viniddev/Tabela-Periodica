@@ -16,10 +16,11 @@ table{
     padding: 15px;
     border-spacing: 3px;
     margin-top: 15px;
+    margin-bottom: 20px;
 }
 td{
-    width: 45px;
-    padding: 5px;
+    width: 60px;
+    padding: 2px;
     border: 2px solid white;
     border-radius: 5px;
     transition: all .5s;
@@ -40,7 +41,7 @@ p{
     font-size: 12px;
 }
 caption{
-    font-size: 35px;
+    font-size: 45px;
 }
 #spacing{
     height: 10px;
@@ -75,4 +76,47 @@ caption{
 }
 .ametais{
     background-color: orangered;
+}
+.tipo{
+    font-size: 15px;
+}
+.descricao{
+    border: none;
+    background-color: #363636;
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.descricao:hover{
+    filter: none;
+    color: white;
+}
+.redondinho{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.alinhamento{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+    margin-bottom: 15px;
+    font-size: 25px;
+    gap: 15px;
+}
+#Hidrogenio{
+    background-color: white;
+}
+#metalTI{
+    background-color:blueviolet;
+}
+#metalTE{
+    background-color:#8B008B;
+}
+#Ametal{
+    background-color:orangered;
+}
+#Nobres{
+    background-color: seagreen;
 }
